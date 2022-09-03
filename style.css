@@ -125,18 +125,20 @@ body {
     }
     .display {
         width: 320px;
+        font-size: 38px;
     }
     .button {
         width: 83px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
     .wrapper {
         max-width: 320px;
     }
     .display {
         width: 292px;
+        font-size: 35px;
     }
     .button {
         width: 76px;
