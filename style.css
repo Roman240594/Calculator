@@ -47,3 +47,74 @@
     url('fonts/arapey-v16-latin-italic.svg#Arapey') format('svg');
     /* Legacy iOS */
 }
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #0bc0eb;
+}
+
+.header__title {
+    font-family: 'ArapeyItalic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.wrapper {
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    background-color: #303030;
+    color: #fff;
+    height: 130px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 10px;
+    font-family: 'GildaDisplay';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 120%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GildaDisplay';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    width: 108px;
+    height: 80px;
+    background-color: #222222;
+    color: #fff;
+    border: 1px solid #191919;
+    cursor: pointer;
+}
+
+.button__sign {
+    background-color: #313131;
+    color: #8E8e91;
+}
