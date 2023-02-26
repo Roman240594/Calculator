@@ -1,0 +1,49 @@
+/* gilda-display-regular - latin */
+
+@font-face {
+    font-family: 'GildaDisplay';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/gilda-display-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/gilda-display-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/gilda-display-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/gilda-display-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/gilda-display-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/gilda-display-v13-latin-regular.svg#GildaDisplay') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* arapey-regular - latin */
+
+@font-face {
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/arapey-v16-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/arapey-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/arapey-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/arapey-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/arapey-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/arapey-v16-latin-regular.svg#Arapey') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* arapey-italic - latin */
+
+@font-face {
+    font-family: 'ArapeyItalic';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/arapey-v16-latin-italic.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/arapey-v16-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/arapey-v16-latin-italic.woff') format('woff'), /* Modern Browsers */
+    url('fonts/arapey-v16-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/arapey-v16-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/arapey-v16-latin-italic.svg#Arapey') format('svg');
+    /* Legacy iOS */
+}
